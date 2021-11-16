@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Royale Tux",
+        "price": "150",
+        "description": "Royale Tux description",
+        "ratings": 4.5,
+        "images": [
+            {
+                "public_id": 1,
+                "url": "Backend\\images\\apollo13.jpg"
+            }
+        ],
+        "category": "Tux",
+        "stock": 5,
+        "numofReviews": 1,
+        "reviews": []
+    },
+    {
+        "name": "Shirt",
+        "price": "50",
+        "description": "Shirt description",
+        "ratings": 4.6,
+        "images": [
+            {
+                "public_id": 2,
+                "url": "Backend\\images\\coco.jpg"
+            }
+        ],
+        "category": "Shirt",
+        "stock": 4,
+        "numofReviews": 2,
+        "reviews": []
+    }
+]
