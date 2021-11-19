@@ -52,10 +52,6 @@ const productSchema = new mongoose.Schema({
             message: 'Please select correct category for this product'
         }
     },
-    // seller: {
-    //     type: String,
-    //     required: [true, 'Please enter product seller']
-    // },
     stock: {
         type: Number,
         required: [true, 'Please enter product stock'],
@@ -80,6 +76,11 @@ const productSchema = new mongoose.Schema({
             required: true
         }
     }],
+    user: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'User',
+        required: true
+    },
     createdAt: {
         type: Date,
         default: Date.now
