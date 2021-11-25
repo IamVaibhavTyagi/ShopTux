@@ -17,6 +17,7 @@ const Search = ({ history }) => {
     }
 
     return (
+
         <form onSubmit={searchHandler} >
             <div className="input-group">
                 <input
@@ -33,6 +34,7 @@ const Search = ({ history }) => {
                 </div>
             </div>
         </form>
+
     )
 }
 
