@@ -9,22 +9,19 @@ const Search = ({ history }) => {
 
         if (keyword.trim()) {
             history.push(`/search/${keyword}`)
-
         } else {
             history.push('/')
-
         }
     }
 
     return (
-
         <form onSubmit={searchHandler} >
             <div className="input-group">
                 <input
                     type="text"
                     id="search_field"
                     className="form-control"
-                    placeholder="Enter the Name ..."
+                    placeholder="Enter Product Name ..."
                     onChange={(e) => setKeyword(e.target.value)}
                 />
                 <div className="input-group-append">
@@ -34,7 +31,6 @@ const Search = ({ history }) => {
                 </div>
             </div>
         </form>
-
     )
 }
 
